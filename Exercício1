@@ -1,0 +1,35 @@
+predio = (" Andar nº")
+numero = 0
+for i in range(21):
+  numero = numero + 1
+  if (numero == 13):
+    continue
+  if (numero == 21):
+    break
+  print(predio, numero) 
+
+
+#######################################
+
+
+andar_atual = 1
+
+while andar_atual <= 20:
+  if andar_atual != 13:
+      print("Andar nº:", andar_atual)
+  andar_atual += 1
+
+
+####################################
+
+predio = (" Andar nº")
+numero = 21
+for i in range(21):
+  numero = numero - 1
+  if (numero == 13):
+    continue
+  if (numero == 0):
+    break
+  print(predio, numero) 
+
+#########################################
